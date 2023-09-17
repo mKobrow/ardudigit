@@ -2,7 +2,7 @@
 
 ![ArduDigiT-Logo](abbildungen/allgemein/ArduDigiT_Logo_quer_farbig.svg)
 
-Dieses Repository enthält alle Dateien, die im Zusammenhang mit dem ArduDigiT-Kurs stehen. Die Datei `moodlekurs.mbz` enthält außerdem eine Backupdatei, mit der der Kurs auf beliebige Instanzen dupliziert werden kann.
+Dieses Repository enthält alle Dateien, die im Zusammenhang mit dem ArduDigiT-Kurs stehen. Die Datei [`moodlekurs.mbz`](moodlekurs.mbz) enthält außerdem eine Backupdatei, mit der der Kurs auf beliebige Instanzen dupliziert werden kann.
 
 ## Lizenzen
 
