@@ -1,0 +1,24 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\usepackage{siunitx}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines = left,
+    xlabel = Temperatur (\unit{\celsius}),
+    ylabel = Spannung (\unit{\volt}),
+]
+%Below the red parabola is defined
+\addplot [
+    domain=-50:150, 
+    samples=100, 
+    color=black,
+]
+{0.01*x+0.5};
+\end{axis}
+\end{tikzpicture}
+\end{document}
+

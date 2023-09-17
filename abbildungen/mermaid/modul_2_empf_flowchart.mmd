@@ -1,0 +1,8 @@
+flowchart TD
+    A(start)
+    A -- setup --> B[pinMode Knopf setzen] --> C[LCD initialisieren]
+    C -- loop --> D{Knopf gedrückt?} -- ja --> E[Countdown Zeitpunkt ausgeben]
+    D -- nein --> D
+    E --> F[warte 1  Sekunde] -- 5 mal --> E
+    F -- danach --> G[LCD zurücksetzen]
+    G --> D

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="103px"
+   height="147px"
+   version="1.1"
+   id="svg66"
+   sodipodi:docname="Light_bulb_off.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview68"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.4846939"
+     inkscape:cx="-146.49485"
+     inkscape:cy="1.0103093"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="1192"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g64" />
+  <defs
+     id="defs37">
+    <linearGradient
+       id="ThreadsBackgroundGrad">
+      <stop
+         offset="0%"
+         stop-color="#bbb"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#666"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="MedThreads1Grad"
+       y1="70%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#aaa"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#333"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="DarkThreadsGrad"
+       y1="70%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#555"
+         id="stop12" />
+      <stop
+         offset="100%"
+         stop-color="#888"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="MedThreads2Grad"
+       y1="70%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#aaa"
+         id="stop17" />
+      <stop
+         offset="100%"
+         stop-color="#bbb"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       id="LightThreadsGrad"
+       y1="70%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#fff"
+         id="stop22" />
+      <stop
+         offset="100%"
+         stop-color="#444"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="EndcapGrad"
+       y1="100%"
+       y2="50%">
+      <stop
+         offset="0%"
+         stop-color="#bbb"
+         id="stop27" />
+      <stop
+         offset="100%"
+         stop-color="#555"
+         id="stop29" />
+    </linearGradient>
+    <radialGradient
+       id="BulbGrad"
+       gradientUnits="userSpaceOnUse"
+       cx="100"
+       cy="100"
+       r="60">
+      <stop
+         offset="0%"
+         stop-color="#fff"
+         id="stop32" />
+      <stop
+         offset="100%"
+         stop-color="#ff6"
+         id="stop34" />
+    </radialGradient>
+  </defs>
+  <g
+     transform="translate(-48.5,-45.34937)"
+     id="g64">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 95.310997,157.15693 c 0,0 -1.178695,-39.23368 -11.113402,-45.29553 -9.934708,-6.06186 18.017185,-3.53609 11.786941,0 -6.23024,3.53608 -4.209622,-3.70447 3.704467,-2.69416 7.914087,1.01031 8.250857,2.86254 4.714777,3.19931 -3.53608,0.33677 0.50516,-4.20962 4.71478,-3.03093 4.20962,1.1787 7.91409,1.85224 5.5567,4.71478 -2.35739,2.86254 -11.1134,32.3299 -10.1031,43.4433"
+       id="path1043" />
+    <path
+       id="Bulb"
+       style="fill:none"
+       d="M100,100 m-43.30127,21.69873 a50,50 0 1,1 86.60254,0 c-6,12 -23.30127,18.30127 -23.30127,33.30127 a50,50 0 0,1 -40,0 c0,-15 -17.30127,-21.30127 -23.30127,-33.30127 z" />
+    <path
+       id="Endcap"
+       style="fill: url(#EndcapGrad)"
+       d="M100,100 m-20,82 a50,50 0 0,0 40,-2 l0,3 -10,8 -20,0 -10,-8 z" />
+    <path
+       id="ThreadsBackground"
+       style="fill: url(#ThreadsBackgroundGrad)"
+       d="M100,100 m-20,55 a50,50 0 0,0 40,-2 l0,27 a-50,50 0 0,1 -40,2 z" />
+    <g
+       style="fill: none; stroke-width: 2.25px"
+       id="g61">
+      <g
+         id="MedThreads1"
+         style="stroke: url(#MedThreads1Grad)">
+        <path
+           id="ThreadsBackground1"
+           d="M100,100 m-20,53 a50,50 0 0,0 40,0" />
+        <path
+           id="ThreadsBackground2"
+           d="M100,100 m-20,82 a50,50 0 0,0 40,0" />
+        <path
+           id="MedThread1"
+           d="M100,100 m-20,61.75 a50,50 0 0,0 40,-2" />
+        <path
+           id="MedThread2"
+           d="M100,100 m-20,70.75 a50,50 0 0,0 40,-2" />
+        <path
+           id="MedThread3"
+           d="M100,100 m-20,79.75 a50,50 0 0,0 40,-2" />
+      </g>
+      <g
+         id="DarkThreads"
+         style="stroke: url(#DarkThreadsGrad)">
+        <path
+           id="DarkThread1"
+           d="M100,100 m-20,55 a50,50 0 0,0 40,-2" />
+        <path
+           id="DarkThread2"
+           d="M100,100 m-20,64 a50,50 0 0,0 40,-2" />
+        <path
+           id="DarkThread3"
+           d="M100,100 m-20,73 a50,50 0 0,0 40,-2" />
+        <path
+           id="DarkThread4"
+           d="M100,100 m-20,82 a50,50 0 0,0 40,-2" />
+      </g>
+      <g
+         id="MedThreads2"
+         style="stroke: url(#MedThreads2Grad)">
+        <path
+           id="MedThread4"
+           d="M100,100 m-20,57.25 a50,50 0 0,0 40,-2" />
+        <path
+           id="MedThread5"
+           d="M100,100 m-20,66.25 a50,50 0 0,0 40,-2" />
+        <path
+           id="MedThread6"
+           d="M100,100 m-20,75.25 a50,50 0 0,0 40,-2" />
+      </g>
+      <g
+         id="LightThreads"
+         style="stroke: url(#LightThreadsGrad)">
+        <path
+           id="LightThread1"
+           d="M100,100 m-20,59.5 a50,50 0 0,0 40,-2" />
+        <path
+           id="LightThread2"
+           d="M100,100 m-20,68.5 a50,50 0 0,0 40,-2" />
+        <path
+           id="LightThread3"
+           d="M100,100 m-20,77.5 a50,50 0 0,0 40,-2" />
+      </g>
+    </g>
+    <path
+       id="Outline"
+       style="fill: none; stroke: #000; stroke-width: 1.5px; stroke-linecap:butt; stroke-linejoin: round"
+       d="M100,100 m-43.30127,21.69873 a50,50 0 1,1 86.60254,0 c-6,12 -23.30127,18.30127 -23.30127,33.30127 l0,28 -10,8 -20,0 -10,-8 0,-28 c0,-15 -17.30127,-21.30127 -23.30127,-33.30127 z" />
+  </g>
+</svg>

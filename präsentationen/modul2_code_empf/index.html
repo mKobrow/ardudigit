@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/darcula.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section style="height: 100%;"><div style="height: 100%; display: flex; align-items: center;"><h1>Lösungscode Modul 2<h1></div></section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Das ist der gesamte Code. Die einzelnen Zeilen werden auf den nächsten Folien erläutert. Du kannst im Code scrollen.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="1" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Hier wird die ArduDigiT Bibliothek eingebunden. Das erleichtert die Arbeit mit dem LCD Display.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="3" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Festlegen der Pinnummer für den Button für einfacheres Ändern im Nachhinein.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="4" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Anlegen eines <code>lcd</code>-Obejkts vom Typ <code>I2C_LCD</code>, mit dem das Display gesteuert werden kann.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="6,10" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Der Code im <code>setup</code> Block wird nur einmalig beim Start ausgeführt.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="7-9" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Festlegen des Modus des Button-Pins und Einrichten des LCD-Displays.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="12,22" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Der Code im <code>loop</code>-Block wird immer wieder ausgeführt, solange der Aduino angeschaltet ist.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="13,21" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Abfrage, ob der Button gerade gedrückt ist.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="14" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Aktuellen Text vom Display löschen</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="15-18" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Countdown mit Schleife auf dem Display ausgeben</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="19-20" data-noescape>
+						#include &lt;Ardudigit.h&gt;
+
+						int buttonPin = 7;
+						I2C_LCD lcd(0x27);
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  lcd.init();
+						  lcd.print("Taste druecken..");
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    lcd.clear();
+						    for (int i = 5; i > 0; i--) {
+						      lcd.printf("%d ", i);
+						      delay(1000);
+						    }
+						    lcd.clear();
+						    lcd.print("Taste druecken..");
+						  }
+						}
+					</code></pre>
+					<p>Display wieder zurücksetzen.</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				center: false,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+				dependencies: [
+					{ src: 'plugin/toolbar/toolbar.js' }
+				],
+				toolbar: {
+					// Specifies where the toolbar will be shown: 'top' or 'bottom'
+					position: 'bottom',
+
+					// Add button to toggle fullscreen mode for the presentation
+					fullscreen: true,
+
+					// Add button to toggle the overview mode on and off
+					overview: false,
+
+					// Add button to pause (hide) the presentation display
+					pause: false,
+
+					// Add button to show the speaker notes
+					notes: false,
+
+					// Add button to show the help overlay
+					help: false,
+
+					// If true, the reveal.js-menu will be moved into the toolbar.
+					// Set to false to leave the menu on its own.
+					captureMenu: true,
+
+					// If true, the playback control will be moved into the toolbar.
+					// This is only relevant if the presentation is configured to autoSlide.
+					// Set to false to leave the menu on its own.
+					capturePlaybackControl: true,
+
+					// By default the menu will load it's own font-awesome library
+					// icons. If your presentation needs to load a different
+					// font-awesome library the 'loadIcons' option can be set to false
+					// and the menu will not attempt to load the font-awesome library.
+					loadIcons: true
+				},
+			});
+		</script>
+	</body>
+</html>

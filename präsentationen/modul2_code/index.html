@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/darcula.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section style="height: 100%;"><div style="height: 100%; display: flex; align-items: center;"><h1>Lösungscode Modul 2<h1></div></section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="" data-noescape>
+						int buttonPin = 7;
+						int ledPin = 6;
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  pinMode(ledPin, OUTPUT);
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    digitalWrite(ledPin, HIGH);
+						    delay(5000);
+						    digitalWrite(ledPin, LOW);
+						  }
+						}
+					</code></pre>
+					<p>Das ist der gesamte Code. Die einzelnen Zeilen werden auf den nächsten Folien erläutert.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="1-2" data-noescape>
+						int buttonPin = 7;
+						int ledPin = 6;
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  pinMode(ledPin, OUTPUT);
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    digitalWrite(ledPin, HIGH);
+						    delay(5000);
+						    digitalWrite(ledPin, LOW);
+						  }
+						}
+					</code></pre>
+					<p>Hier werden die Nummern für die Pins festgelegt. Das ermöglicht eine einfachere Änderung der Pins im Nachhinein.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="4,7" data-noescape>
+						int buttonPin = 7;
+						int ledPin = 6;
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  pinMode(ledPin, OUTPUT);
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    digitalWrite(ledPin, HIGH);
+						    delay(5000);
+						    digitalWrite(ledPin, LOW);
+						  }
+						}
+					</code></pre>
+					<p>Im <code>setup()</code>-Block wird der Code nur einmal, beim Start des Arduino, ausgeführt.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="5-6" data-noescape>
+						int buttonPin = 7;
+						int ledPin = 6;
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  pinMode(ledPin, OUTPUT);
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    digitalWrite(ledPin, HIGH);
+						    delay(5000);
+						    digitalWrite(ledPin, LOW);
+						  }
+						}
+					</code></pre>
+					<p>Über <code>pinMode()</code> wird festgelegt, dass der Pin an den der Button angeschlossen ist ein Input-Pin mit Pullup-Widerstand ist. Der LED-Pin wird auf Output gesetzt.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="9,15" data-noescape>
+						int buttonPin = 7;
+						int ledPin = 6;
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  pinMode(ledPin, OUTPUT);
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    digitalWrite(ledPin, HIGH);
+						    delay(5000);
+						    digitalWrite(ledPin, LOW);
+						  }
+						}
+					</code></pre>
+					<p>Im <code>loop()</code>-Block wird der Code kontinuierlich ausgeführt.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="10, 14" data-noescape>
+						int buttonPin = 7;
+						int ledPin = 6;
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  pinMode(ledPin, OUTPUT);
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    digitalWrite(ledPin, HIGH);
+						    delay(5000);
+						    digitalWrite(ledPin, LOW);
+						  }
+						}
+					</code></pre>
+					<p>Die <code>if</code>-Verzweigung überprüft, ob der Wert auf dem Button-Pin <code>LOW</code> ist, also ob der Button gedrückt ist.</p>
+				</section>
+				<section data-auto-animate>
+					<pre><code class="arduino" data-trim data-line-numbers="11-13" data-noescape>
+						int buttonPin = 7;
+						int ledPin = 6;
+
+						void setup() {
+						  pinMode(buttonPin, INPUT_PULLUP);
+						  pinMode(ledPin, OUTPUT);
+						}
+
+						void loop() {
+						  if (digitalRead(buttonPin) == LOW) {
+						    digitalWrite(ledPin, HIGH);
+						    delay(5000);
+						    digitalWrite(ledPin, LOW);
+						  }
+						}
+					</code></pre>
+					<p>Falls das so ist, wird der LED-Pin auf <code>HIGH</code> gesetzt, also die LED angeschaltet. Dann wird 5 Sekunden gewartet und die LED wird anschließend wieder ausgeschaltet.</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				center: false,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+				dependencies: [
+					{ src: 'plugin/toolbar/toolbar.js' }
+				],
+				toolbar: {
+					// Specifies where the toolbar will be shown: 'top' or 'bottom'
+					position: 'bottom',
+
+					// Add button to toggle fullscreen mode for the presentation
+					fullscreen: true,
+
+					// Add button to toggle the overview mode on and off
+					overview: false,
+
+					// Add button to pause (hide) the presentation display
+					pause: false,
+
+					// Add button to show the speaker notes
+					notes: false,
+
+					// Add button to show the help overlay
+					help: false,
+
+					// If true, the reveal.js-menu will be moved into the toolbar.
+					// Set to false to leave the menu on its own.
+					captureMenu: true,
+
+					// If true, the playback control will be moved into the toolbar.
+					// This is only relevant if the presentation is configured to autoSlide.
+					// Set to false to leave the menu on its own.
+					capturePlaybackControl: true,
+
+					// By default the menu will load it's own font-awesome library
+					// icons. If your presentation needs to load a different
+					// font-awesome library the 'loadIcons' option can be set to false
+					// and the menu will not attempt to load the font-awesome library.
+					loadIcons: true
+				}
+			});
+		</script>
+	</body>
+</html>

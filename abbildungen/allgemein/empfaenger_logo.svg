@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg3189"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="empfaenger_logo.svg"
+   inkscape:export-filename="C:\Users\mkobrow\Nextcloud\Documents\Uni\10. Semester\Stexarbeit\praxis\empfaenger_logo.png"
+   inkscape:export-xdpi="50.799999"
+   inkscape:export-ydpi="50.799999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3191"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5554293"
+     inkscape:cx="-69.755662"
+     inkscape:cy="98.043672"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="1192"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs3186">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path6794" />
+    </marker>
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect6302"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,1.3229167,0,1 @ F,0,0,1,0,1.3229167,0,1 @ F,0,0,1,0,1.3229167,0,1 @ F,0,0,1,0,1.3229167,0,1 @ F,0,0,1,0,1.3229167,0,1 @ F,0,0,1,0,1.3229167,0,1 @ F,0,0,1,0,1.3229167,0,1 @ F,0,0,1,0,1.3229167,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="5"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-13.14585)">
+    <path
+       id="rect3272"
+       style="fill:#0f7391;stroke:#000000;stroke-width:0.233906;stroke-linecap:butt;stroke-linejoin:round"
+       d="m 1.4398296,40.7731 7.2336471,0.05631 a 2.6392052,2.6392052 27.068612 0 1 2.1062243,1.076354 l 3.43452,4.674025 a 2.6137594,2.6137594 26.845596 0 0 2.106265,1.066056 h 17.359028 a 2.5964891,2.5964891 153.00106 0 0 2.100548,-1.070233 l 3.445954,-4.742581 a 2.5964891,2.5964891 153.00106 0 1 2.100548,-1.070233 h 7.233566 a 1.3229167,1.3229167 45 0 1 1.322917,1.322917 V 54.20598 A 1.3229167,1.3229167 135 0 1 48.56013,55.528897 H 1.4398697 A 1.3229167,1.3229167 45 0 1 0.116953,54.20598 V 42.085719 A 1.312658,1.312658 135.22302 0 1 1.4398296,40.7731 Z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:path-effect="#path-effect6302"
+       inkscape:original-d="m 0.116953,40.762802 9.8794003,0.07691 5.0012157,6.806137 h 20.004862 l 5.001216,-6.883047 h 9.8794 V 55.528897 H 0.116953 Z" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 24.930952,21.27835 0.08505,19.987115"
+       id="path6337"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\mkobrow\Nextcloud\Documents\Uni\10. Semester\Stexarbeit\praxis\sender_logo.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+  </g>
+</svg>

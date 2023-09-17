@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/darcula.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section style="height: 100%;">
+					<div style="height: 100%; display: flex; align-items: center; flex-direction: column; justify-content: center;">
+						<img src="images/ArduDigiT_Logo_quer_farbig.svg"></img><br>
+						<h2>Eine Einführung in die digitale Datenübertragung</h2>
+					</div>
+				</section>
+				<section data-background-image="images/glasfaser.jpg"></section>
+				<section data-background-image="images/binary.jpg"></section>
+				<section>
+					<figure>
+						<img width="45%" src="images/glasfaser.jpg">
+						<img width="45%" src="images/binary.jpg">
+						<figcaption style="font-size: 0.3em; margin-top: -20px;">Bilder von <a target="_blank" rel="noopener noreferrer" href="https://pixabay.com/">Pixabay</a></figcaption>
+					</figure>
+					<p>Solche oder ähnliche Bilder findet man als Symbolbilder in den Nachrichten, wenn es beispielsweise um Computer oder das Internet geht.</p>
+					<p>Aber was haben diese Lichter, Blitze und Nullen und Einsen zu bedeuten?</p>
+				</section>
+				<section>
+					<p>Um das herauszufinden, sollst du in diesem Kurs zwei Arduinos dazu bringen Text auszutauschen.</p>
+					<img src="images/zwei_ardu_uebertra.svg">
+				</section>
+				<section>
+					<p>Dazu bietet dieser Kurs vier Module an, die aufeinander aufbauen und dich darauf vorbereiten diese Aufgabe zu meistern.</p>
+					<p>🔃 &rarr; 🛠️ &rarr; 🔌 &rarr; 🧑‍💻</p>
+					<p>Hier noch ein paar Hinweise: ...</p>
+				</section>
+				<section>
+					Generell kannst du alle Inhalte immer wieder durchlaufen und Aufgaben erneut versuchen. Mach dir also keinen Stress.
+				</section>
+				<section>
+					Wenn du nicht weiterweißt, dann frage deinen Partner/ deine Partnerin oder deinen Mentor/ deine Mentorin.
+				</section>
+				<section>
+					Bei den meisten Aufgaben gibt es fertige Hilfestellungen. Die sind standardmäßig eingeklappt und können es auch gerne bleiben. Versuch dich immer zuerst alleine an den Aufgaben und gib nicht zu schnell auf! Du schaffst das.
+				</section>
+				<section>
+					<p>In jedem Modul gibt es ein Glossar (<img style="margin: 0; height: calc(0.7*var(--r-main-font-size))" src="images/glossar_icon.svg">), in dem alle wichtigen Begriffe dieses Moduls übersichtlich zusammengefasst sind. Diese können und sollen bei den Aufgaben gerne benutzt werden.</p>
+					<p>Außerdem werden alle Begriffe, die in den Glossaren stehen, im Kurs mit Links versehen. Wenn du auf diese klickst, erhältst du ein Pop-up, das diesen Begriff erklärt.</p>
+				</section>
+				<section>
+					Die Module werden nach und nach freigeschaltet. Bei den Modulen 2 und 4 passiert das automatisch, um das Modul 3 freizuschalten, muss dein Mentor/ deine Mentorin die letzte Aufgabe im Modul 2 als erledigt markieren.
+				</section>
+				<section>
+					<p>Um in Moodle das Inhaltsverzeichnis des Kurses zu öffnen, klicke oben links:</p>
+					<img src="images/moodle_kursindex_1.png">
+				</section>
+				<section>
+					<p>Über dem Namen der aktuellen Aktivität siehst du, wo du dich gerade befindest.</p>
+					<p>Mit einem Klick auf den Namen des Abschnittes kommst du zurück in den Abschnitt:</p>
+					<img src="images/moodle_kursindex_2.png">
+				</section>
+				<section>
+					<p>Mit einem Klick auf den Namen des Kurses kommst du in die Kursstartseite:</p>
+					<img src="images/moodle_kursindex_3.png">
+				</section>
+				<section>
+					<p>Und jetzt: Viel Spaß und Erfolg! 🍀</p>
+					<p>Gehe zurück auf die Kursstartseite, um mit dem ersten Modul zu beginnen.</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+				dependencies: [
+					{ src: 'plugin/toolbar/toolbar.js' }
+				],
+				toolbar: {
+					// Specifies where the toolbar will be shown: 'top' or 'bottom'
+					position: 'bottom',
+
+					// Add button to toggle fullscreen mode for the presentation
+					fullscreen: true,
+
+					// Add button to toggle the overview mode on and off
+					overview: false,
+
+					// Add button to pause (hide) the presentation display
+					pause: false,
+
+					// Add button to show the speaker notes
+					notes: false,
+
+					// Add button to show the help overlay
+					help: false,
+
+					// If true, the reveal.js-menu will be moved into the toolbar.
+					// Set to false to leave the menu on its own.
+					captureMenu: true,
+
+					// If true, the playback control will be moved into the toolbar.
+					// This is only relevant if the presentation is configured to autoSlide.
+					// Set to false to leave the menu on its own.
+					capturePlaybackControl: true,
+
+					// By default the menu will load it's own font-awesome library
+					// icons. If your presentation needs to load a different
+					// font-awesome library the 'loadIcons' option can be set to false
+					// and the menu will not attempt to load the font-awesome library.
+					loadIcons: true
+				},
+			});
+		</script>
+	</body>
+</html>

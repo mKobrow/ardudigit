@@ -1,0 +1,4 @@
+flowchart TD
+    G(start) --> A[int i = 0] -->  B{"ist numbers[i] gerade?"} -- ja --> C["numbers[i] ausgeben"] --> D
+    B -- nein --> D{i < length?} -- ja --> E[i++] --> B
+    D -- nein --> F(stop)

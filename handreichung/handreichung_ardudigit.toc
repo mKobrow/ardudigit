@@ -1,0 +1,36 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Allgemeines}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Zielgruppe}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Voraussetzungen}{1}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Vorwissen}{1}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Technik}{1}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Moodle}{2}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}Hinweise}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Modul 1: Wiederholung Programmierung}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Lernziele}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Elemente}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Lektion \csqQQ {34}Crashkurs: imperative Programmierung in C/{C\nolinebreak [4]\hspace {-.05em}\raisebox {.4ex}{\tiny \bf ++}}\csqQQ {34}}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Glossar - \csqQQ {34}Arduino (C/{C\nolinebreak [4]\hspace {-.05em}\raisebox {.4ex}{\tiny \bf ++}}) Syntax - Nachschlagewerk\csqQQ {34}}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Quiz - \csqQQ {34}Bist du bereit?\csqQQ {34}}{4}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Modul 2: Informatisch Basteln mit Arduinos}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Lernziele}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Elemente}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Buch - \csqQQ {34}Hardware\csqQQ {34}}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Video - \csqQQ {34}Tutorial Arduino IDE\csqQQ {34}}{5}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Buch - \csqQQ {34}Arduino Programmieren\csqQQ {34}}{5}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Glossar - \csqQQ {34}Hardware und Arduino-Befehle\csqQQ {34}}{5}{subsubsection.3.2.4}%
+\contentsline {section}{\numberline {4}Modul 3: Wie kommt der Text ins Kabel?}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Lernziele}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Elemente}{5}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Buch - \csqQQ {34}Text + Strom = Datenübertragung?\csqQQ {34}}{5}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Glossar - \csqQQ {34}Befehle und Fakten zur Signalübertragung\csqQQ {34}}{6}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Quiz - \csqQQ {34}bitRead Aufgabe\csqQQ {34}}{6}{subsubsection.4.2.3}%
+\contentsline {paragraph}{Mögliche Lösung}{6}{section*.2}%
+\contentsline {subsubsection}{\numberline {4.2.4}Quiz - \csqQQ {34}bitWrite Aufgabe\csqQQ {34}}{6}{subsubsection.4.2.4}%
+\contentsline {paragraph}{Mögliche Lösung}{6}{section*.3}%
+\contentsline {section}{\numberline {5}Modul 4: Jetzt bist du dran!}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Lernziele}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Mögliche Lösungen}{7}{subsection.5.2}%
+\contentsline {paragraph}{Sender}{7}{section*.4}%
+\contentsline {paragraph}{Empfänger}{7}{section*.5}%
+\contentsline {subsubsection}{\numberline {5.2.1}Hinweise}{8}{subsubsection.5.2.1}%

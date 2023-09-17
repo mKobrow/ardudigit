@@ -1,0 +1,126 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.000
+Hallo und herzlich Willkommen zu diesem kleinen Tutorial zur Arduino IDE 1.8.
+
+2
+00:00:05.000 --> 00:00:10.000
+Wenn wir in die IDE hineinladen, öffnet sich automatisch ein neuer Sketch.
+
+3
+00:00:10.000 --> 00:00:15.949
+Sektches sind beim Arduino die einzelnen Programme, die später auf den Arduino geladen werden.
+
+4
+00:00:15.949 --> 00:00:21.900
+In der Mitte befindet sich das Editorfenster, dort wird der Code eingegaben,
+
+5
+00:00:21.900 --> 00:00:25.483
+der später auf den Arduino geladen werden soll.
+
+6
+00:00:25.483 --> 00:00:33.933
+Über dem Editorfenster befinden sich fünf Knöpfe für den Schnellzugriff auf wichtige Funktionen.
+
+7
+00:00:33.933 --> 00:00:36.983
+Beispielsweise Knöpfe für das Kompilieren,
+
+8
+00:00:36.983 --> 00:00:39.216
+für das Hochladen auf den Arduino,
+
+9
+00:00:39.216 --> 00:00:40.650
+für das Erstellen eines neuen Sketches,
+
+10
+00:00:40.650 --> 00:00:44.516
+oder das Öffnen und Speichern von Sketches.
+
+11
+00:00:44.516 --> 00:00:56.033
+Darüber befindet sich die Menüleiste mit den Menüpunkten Datei, Bearbeiten, Sketch, Werkzeuge und Hilfe.
+
+12
+00:00:56.033 --> 00:01:01.150
+Der Punkt "Datei" ist vor allem für das Laden und Speichern von Sketches wichtig,
+
+13
+00:01:01.150 --> 00:01:06.633
+aber man kann hier auch verschiedene Beispielsketches ansehen.
+
+14
+00:01:06.633 --> 00:01:15.983
+Der "Bearbeiten"-Bereich bietet verschiedene Möglichkeiten zur Modifikation des Codes.
+
+15
+00:01:16.900 --> 00:01:22.133
+Im Bereich "Sketch" finden sich die Möglichkeiten zum Hochladen und Kompilieren wieder.
+
+16
+00:01:22.133 --> 00:01:30.083
+Außerdem kann man hier Bibliotheken einbinden. Viele sind schon vorinstalliert,
+
+17
+00:01:30.083 --> 00:01:35.216
+man kann aber auch Bibliotheken über "Bibliotheken verwalten..." dazu installieren.
+
+18
+00:01:35.216 --> 00:01:41.133
+Außerdem kann man hier Bibliotheken aus ZIP-Dateien installieren.
+
+19
+00:01:41.133 --> 00:01:47.099
+Im "Werkzeug"-Menü finden sich verschiedene Einstellungen zum Hochladen auf den Arduino
+
+20
+00:01:47.099 --> 00:01:55.016
+Beispielsweise welches Board verwendet wird und auf welchem Port der Arduino angeschlossen ist.
+
+21
+00:01:55.016 --> 00:02:02.599
+Öffnen wir einen Beispielsketch aus der Beispielbibliothek, wie zum Beispiel das "Blink"-Programm
+
+22
+00:02:02.599 --> 00:02:05.116
+Dann sehen wir den bereits vorgeschriebenen Code
+
+23
+00:02:05.116 --> 00:02:12.849
+und können den über den "Hochladen"-Button Kompilieren und auf den Arduino hochladen
+
+24
+00:02:12.849 --> 00:02:19.416
+Vorher sollte allerdings im "Werkzeug" Menü geprüft werden, ob das richtige Board ausgewählt ist.
+
+25
+00:02:19.416 --> 00:02:22.566
+In meinem Fall ist das der Arduino Mega
+
+26
+00:02:22.566 --> 00:02:25.716
+Und ob der richtige Port ausgewählt ist
+
+27
+00:02:25.716 --> 00:02:30.733
+Hier stimmt das auch, der Arduino hängt gerade am COM5, das steht auch dahinter.
+
+28
+00:02:30.733 --> 00:02:38.800
+Wenn das überprüft ist, kann der Sketch hochgeladen werden.
+
+29
+00:02:38.800 --> 00:02:45.466
+Wenn der Sketch erfolgreich hochgeladen wurde, sieht man das unten links
+
+30
+00:02:45.466 --> 00:02:52.133
+Falls es Fehler im Code oder beim Hochladen geben würde, würden diese angezeigt werden.
+
+31
+00:02:55.483 --> 00:03:08.300
+Beispielsweise fehlt jetzt hier ein Semikolon, das wird beim Kompilieren gemerkt und angezeigt.
+

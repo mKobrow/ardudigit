@@ -1,0 +1,122 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.416
+Hallo und herzlich wilkommen zu diesem kleinen Tutorial zur Arduino IDE 2.0 bzw. den 2er Versionen. 
+
+2
+00:00:07.416 --> 00:00:16.933
+Wenn wir die IDE starten, befindet sich in der Mitte das Editorfenster, in dem wir den Code für den Sketch eintippen können.
+
+3
+00:00:16.933 --> 00:00:22.816
+Auf der linken Seite des Fensters befinden sich verschiedene Unterbereiche.
+
+4
+00:00:22.816 --> 00:00:28.750
+Zum einen das Sketchbook, in dem alle Programme gespeichert werden.
+
+5
+00:00:28.750 --> 00:00:38.950
+Außerdem die Boardverwaltung, in der alle installierten Treiber für die Arduino-Boards gespeichert sind und neue Boards installiert werden können,
+
+6
+00:00:38.950 --> 00:00:49.149
+Ähnlich ist es bei der Bibliotheksverwaltung. Hier werden installierte Bibliotheken angezeigt und es lassen sich neue installieren.
+
+7
+00:00:49.149 --> 00:00:55.316
+Dann gibt es noch den Bereich für den Debugger und einen Bereich um den Code zu durchsuchen.
+
+8
+00:00:55.316 --> 00:01:01.483
+Über dem Editorbereich befinden sich zum einen drei verschiedene Knöpfe, einer zum Kompilieren des Codes
+
+9
+00:01:01.483 --> 00:01:05.216
+einen zum Hochladen auf den Arduino
+
+10
+00:01:05.216 --> 00:01:13.183
+und einen zum Debuggen des Codes, man sieht aber, dass der aktuell nicht funktioniert, dazu muss noch mehr konfiguriert werden.
+
+11
+00:01:13.183 --> 00:01:20.150
+Daneben gibt es die Möglichkeit auszuwählen, welches Arduino-Board programmiert werden soll.
+
+12
+00:01:20.150 --> 00:01:30.183
+Es gibt zum einen die Möglichkeit angeschlossene Arduinos auszuwählen, wie ich das gerade gemacht habe. Mein Arduino ist gerade am USB-Port angeschlossen und jetzt kann ich den hier ausählen.
+
+13
+00:01:30.183 --> 00:01:38.433
+Aber ich kann auch ein anderes Board auswählen, falls ich beispielsweise Code schreiben möchte und den Arduino gerade nicht zur Hand habe.
+
+14
+00:01:38.433 --> 00:01:45.633
+Darüber befindet sich die Menüleiste mit den Einträgen "Datei", "Bearbeiten", "Sketch", "Werkzeuge" und "Hilfe".
+
+15
+00:01:45.633 --> 00:01:54.316
+Im Menü "Datei" gibt es vor allem Optionen um Sketche zu öffnen und zu speichern oder Einstellungen zu verändern.
+
+16
+00:01:54.316 --> 00:02:04.200
+Im Bereich "Bearbeiten" gibt es verschiedene Möglichkeiten Code zu formatieren. Z.B. kann man Kommentare einfügen oder den Code einrücken.
+
+17
+00:02:04.200 --> 00:02:08.766
+Im Bereich "Sketch" finden wir die Möglichkeiten zum Kompilieren und Hochladen wieder.
+
+18
+00:02:08.766 --> 00:02:12.383
+Außerdem gibt es hier auch die Möglichkeit Bibliotheken einzubinden
+
+19
+00:02:12.383 --> 00:02:16.550
+Über Bibliotheken verwalten gelangt man wieder in den Bibliotheksverwalter
+
+20
+00:02:16.550 --> 00:02:25.316
+Außerdem gibt es hier die Möglichkeit Bibliotheken mit einer ZIP-Datei zu installieren.
+
+21
+00:02:25.316 --> 00:02:31.766
+Darüber hinaus sehen wir hier viele Vorinstallierte Bibliotheken, die mittels eines Klicks in den Code importiert werden können.
+
+22
+00:02:31.766 --> 00:02:38.216
+Im "Werkzeug"-Bereich gibt es verschiedene Einstellungsmöglichkeiten für das Hochladen auf den Arduino.
+
+23
+00:02:38.216 --> 00:02:50.900
+Hier können wir auch das Board, das wir programmieren wollen und den Port festlegen. Außerdem gibt es verschiedene andere Optionen, die aber vorerst nicht relevant sind.
+
+24
+00:02:50.900 --> 00:02:58.816
+Im Bereich "Datei" gibt es außerdem die Möglichkeit Beispielsketche aufzurufen. Hier mache ich das mit dem "Blink" Sketch.
+
+25
+00:02:58.816 --> 00:03:04.050
+Dann öffnet sich ein neues Fenster in dem wir den Code sehen.
+
+26
+00:03:04.050 --> 00:03:13.650
+Will ich diesen Code hochladen, muss ich überprüfen, ob der Arduino oben korrekt ausgewählt ist. Anschließden kann ich direkt auf "Hochladen" klicken.
+
+27
+00:03:13.650 --> 00:03:18.016
+Der Sketch wird kompiliert und anschließend hochgeladen.
+
+28
+00:03:18.016 --> 00:03:26.283
+War das erfolgreich, sieht das dann so aus und unten rechts kommt auch die Benachrichtigung über den Erfolg.
+
+29
+00:03:26.283 --> 00:03:32.933
+Jetzt baue ich Beispielsweise einen Fehler ein und Lösche das Semikolon in Zeile 28.
+
+30
+00:03:32.933 --> 00:03:42.416
+Wenn ich versuche das hochzuladen, gibt es einen Fehler, dass ein Semikolon erwartet wird. Die Kompilierung bricht mit einem Fehler ab.
+
